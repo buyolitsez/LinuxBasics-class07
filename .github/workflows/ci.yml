@@ -5,10 +5,11 @@ on:
   - pull_request
 
 jobs:
+
   task07:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "TODO"
+      - run: sudo apt-get install cmatrix
 
   build:
     name: Autograding
